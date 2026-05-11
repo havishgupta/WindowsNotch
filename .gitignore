@@ -32,3 +32,6 @@ bld/
 
 # macOS trash
 .DS_Store
+
+# Publish output
+publish/

@@ -156,7 +156,7 @@ namespace DynamicNotch
             NotchBorder.Height = double.NaN; // Auto-size to content
             NotchBorder.Width = 580;
             NotchBorder.CornerRadius = new CornerRadius(15);
-            NotchBorder.Background = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(13, 0, 0, 0)); // Show background (95% transparent #0D000000)
+            NotchBorder.Background = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromArgb(128, 0, 0, 0)); // Show background (50% transparent)
             NotchContent.Visibility = Visibility.Visible;
             
             var desktopWorkingArea = SystemParameters.WorkArea;

@@ -9,7 +9,7 @@
         AllowDrop="True" DragEnter="Window_DragEnter" DragLeave="Window_DragLeave" Drop="Window_Drop">
     
     <Grid Background="Transparent">
-        <!-- 95% transparency for black background (#0D000000) -->
+        <!-- 50% transparency for black background (#80000000) -->
         <Border Name="NotchBorder" Background="#01000000" CornerRadius="0,0,15,15" 
                 VerticalAlignment="Top" HorizontalAlignment="Center"
                 Width="600" Height="8" Margin="0">

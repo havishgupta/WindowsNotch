@@ -1,26 +1,31 @@
 # Dynamic Notch
 
-A sleek, top-screen drop-zone and utility bar for Windows, inspired by modern UI paradigms. Dynamic Notch sits invisibly at the top of your screen and reveals itself when you hover your mouse or drag files to it.
+A sleek, top-screen drop-zone and utility bar for Windows! It sits invisibly at the top of your screen and reveals itself when you move your mouse to the top edge or drag files towards it.
 
-## Features
-- **File Staging Area:** Drag and drop files or folders into the notch to stage them. Later, drag them out to copy them anywhere else. It acts as a temporary shelf for files you need right now.
-- **Copy, don't Move:** Dragging files out of the notch automatically copies them, preventing accidental loss of your original files.
-- **Quick Utilities:** Integrated tools for Snipping Tool, Clipboard History, and Emoji Panel.
-- **Auto-Startup:** Automatically registers itself to run on system startup so your notch is always ready.
-- **System Tray Integration:** Manage the application directly from the Windows System Tray.
+![Dynamic Notch](https://github.com/havishgupta/notch/assets/placeholder.png)
 
-## System Tray Tutorial
-When Dynamic Notch is running, a small application icon will appear in your system tray (the area on the taskbar near the clock, sometimes hidden behind the `^` arrow).
-- **Find the Icon:** Look for the Dynamic Notch icon in the system tray.
-- **Right-Click Menu:** Right-click the icon to open the context menu.
-- **Exit App:** Click **Exit Dynamic Notch** from the menu to cleanly shut down the application and remove the notch from your screen.
+## How to Install and Run (The Easy Way!)
 
-## Use Cases
-1. **Research & Organization:** Dragging images, PDFs, and links into the notch while browsing, then dropping them into a document or folder later.
-2. **Quick Access:** Keep your most frequently used templates or assets easily accessible from any window.
-3. **Productivity Tools at Hand:** Quickly access clipboard history or take screenshots without remembering keyboard shortcuts.
+1. Go to the **[Releases page](https://github.com/havishgupta/notch/releases/latest)** on the right side of this screen.
+2. Download the `DynamicNotch.exe` file.
+3. Double-click the downloaded `DynamicNotch.exe` file to run it. (If Windows shows a "Windows protected your PC" popup, click "More info" and then "Run anyway").
+4. That's it! 
 
-## Download & Run
-1. Go to the [Releases](#) tab on GitHub and download the latest executable.
-2. Run `DynamicNotch.exe`.
-3. Move your cursor to the top center of your screen to see the notch expand. Drag files in and out to start using your shelf!
+**How do I know it's working?**
+- Move your mouse all the way to the top-center of your screen. The notch will smoothly drop down!
+- Check your System Tray (the small icons near your clock/Wi-Fi at the bottom right). You will see the Dynamic Notch icon. 
+
+## How to Use It
+
+- **Save files for later:** Drag any file or folder from your computer into the notch. It will hold onto it for you like a shelf.
+- **Get them back:** Need that file? Drag it out of the notch and drop it wherever you want. It safely **copies** the file, so you won't lose the original.
+- **Quick Tools:** Inside the notch, there are buttons for the Snipping Tool, your Clipboard History, and the Emoji menu!
+
+## How to Close It
+
+If you want to close the app:
+1. Find the Dynamic Notch icon in your System Tray (bottom right of your screen, you might need to click the `^` arrow to see hidden icons).
+2. Right-click the icon.
+3. Click **"Exit Dynamic Notch"**.
+
+*(Note: The app automatically sets itself to run when you turn on your computer so it's always ready!)*
