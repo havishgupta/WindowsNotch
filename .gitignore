@@ -35,3 +35,9 @@ bld/
 
 # Publish output
 publish/
+
+# Local log files
+*.log
+err.txt
+log.txt
+out.txt
